@@ -12,7 +12,6 @@ class Cat extends Animal {
 
     sound() {
         console.log("meow");
-        super.sound();
     }
 }
 
@@ -23,7 +22,6 @@ class Dog extends Animal {
 
     sound() {
         console.log("woof");
-        super.sound();
     }
 }
 

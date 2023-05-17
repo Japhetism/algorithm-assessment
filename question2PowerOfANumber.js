@@ -14,3 +14,7 @@ const power = 3
 const response = powerOfANumber(number, power);
 
 console.log(response);
+
+// unit test
+const errorMsg = "generated result is wrong"
+console.assert(response === 125, "%o", { response, errorMsg });
